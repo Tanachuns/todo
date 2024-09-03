@@ -3,6 +3,7 @@ import { Logout } from "@/components/Logout";
 import NavBar from "@/components/NavBar";
 import UserAvatar from "@/components/UserAvatar";
 import Hero from "@/components/layouts/Hero";
+import Pricing from "@/components/layouts/Pricing";
 import Services from "@/components/layouts/Services";
 import React from "react";
 
@@ -14,6 +15,7 @@ export default function page({}: Props) {
       <NavBar />
       <Hero />
       <Services />
+      <Pricing />
     </>
   );
 }
