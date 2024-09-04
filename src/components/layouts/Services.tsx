@@ -5,7 +5,7 @@ type Props = {};
 export default function Services({}: Props) {
   return (
     <>
-      <div className=" ">
+      <div className="" id="services">
         <div className="p-24 text-center">
           <div className="w-1/2 m-auto">
             <small>Our Services</small>

@@ -55,13 +55,13 @@ export default function NavBar({}: Props) {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>บริการ</a>
+              <a href="#services">บริการ</a>
             </li>
             <li>
-              <a>ราคา</a>
+              <a href="#pricing">ราคา</a>
             </li>
             <li>
-              <a>เกี่ยวกับเรา</a>
+              <a href="#about">เกี่ยวกับเรา</a>
             </li>
             <li>
               <a>ติดต่อ</a>

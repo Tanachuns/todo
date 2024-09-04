@@ -2,6 +2,7 @@ import { Login } from "@/components/Login";
 import { Logout } from "@/components/Logout";
 import NavBar from "@/components/NavBar";
 import UserAvatar from "@/components/UserAvatar";
+import About from "@/components/layouts/About";
 import Hero from "@/components/layouts/Hero";
 import Pricing from "@/components/layouts/Pricing";
 import Services from "@/components/layouts/Services";
@@ -16,6 +17,7 @@ export default function page({}: Props) {
       <Hero />
       <Services />
       <Pricing />
+      <About />
     </>
   );
 }
